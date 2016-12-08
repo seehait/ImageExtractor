@@ -14,11 +14,11 @@ public class ImageMouseListener implements MouseListener {
     }
 
     public void mouseClicked(MouseEvent e) {
-        parent.capture();
+
     }
 
     public void mousePressed(MouseEvent e) {
-
+        parent.capture();
     }
 
     public void mouseReleased(MouseEvent e) {
